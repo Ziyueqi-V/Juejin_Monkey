@@ -1,26 +1,24 @@
 // ==UserScript==
 // @name         Junjin Monkey - 掘金猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  better Juejin experience, remove ads and other useless things, make it clean and simple, just like a monkey!
 // @author       Sherlock-V
 // @match        https://juejin.cn
 // @match        https://juejin.cn/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=juejin.cn
+// @icon         https://juejin.cn/favicon.ico
 // @grant        GM_addStyle
 // @run-at       document-body
 // @license      MIT
 // ==/UserScript==
-
-
 (function () {
   'use strict';
 
   // Your code here...
-  const vistopiaCSS = `
+  const cssText = `
   
   `;
-  GM_addStyle(vistopiaCSS);
+  GM_addStyle(cssText);
 
   const style = document.createElement('style')
   const hides = [
