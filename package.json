@@ -1,0 +1,17 @@
+{
+  "name": "juejin_monkey",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/generate.js",
+    "watch": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.63.2"
+  }
+}
