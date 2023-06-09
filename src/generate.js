@@ -18,6 +18,6 @@ const newFile = header + "\n" + newBody;
 if (!fs.existsSync("./dist/")) {
   fs.mkdirSync("./dist/", { recursive: true });
 }
-fs.writeFileSync('./dist/vistopia_mod.user.js', newFile);
+fs.writeFileSync('./dist/Juejin_Monkey.user.js', newFile);
 
 console.log('user.js generated');
