@@ -6,7 +6,7 @@
 // @author       Sherlock-V
 // @match        https://juejin.cn
 // @match        https://juejin.cn/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=juejin.cn
+// @icon         https://juejin.cn/favicon.ico
 // @grant        GM_addStyle
 // @run-at       document-body
 // @license      MIT
