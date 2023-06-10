@@ -1,13 +1,12 @@
 {
   "name": "juejin_monkey",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "better Juejin experience, remove ads and other useless things, make it clean and simple, just like a monkey!",
   "main": "index.js",
   "scripts": {
     "build": "(node bump.js) && (node ./src/generate.js)",
     "watch": "nodemon",
     "version": "npm run build && git add . && echo '44444444444444444444444'",
-    "postversion": "git commit -m 'shit' && git push",
     "release": "bump patch --commit --push"
   },
   "keywords": [],
