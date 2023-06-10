@@ -15,9 +15,6 @@ const newBody = body.replace('/* CSS_PLACEHOLDER */', cssString);
 
 const newFile = header + "\n" + newBody;
 
-if (!fs.existsSync("./dist/")) {
-  fs.mkdirSync("./dist/", { recursive: true });
-}
-fs.writeFileSync('./dist/Juejin_Monkey.user.js', newFile);
+fs.writeFileSync('./Juejin_Monkey.user.js', newFile);
 
 console.log('user.js generated');
