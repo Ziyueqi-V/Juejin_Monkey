@@ -6,7 +6,7 @@
   "scripts": {
     "build": "(node bump.js) && (node ./src/generate.js)",
     "watch": "nodemon",
-    "release": "bump"
+    "release": "bump patch && npm run build && git add . && git commit -m 'test' && git push"
   },
   "keywords": [],
   "author": "",
