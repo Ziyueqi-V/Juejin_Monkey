@@ -7,7 +7,7 @@ console.log('当前包的版本:', currentVersion);
 
 // 2. 使用git提交代码，提交注释为版本号
 const commitMessage = `版本号: ${currentVersion}`;
-exec('git add . && git commit -m "' + commitMessage + '"', (error, stdout, stderr) => {
+exec('git add . && echo \'111 \' && git commit -m "' + commitMessage + '"&& echo \'222 \' ', (error, stdout, stderr) => {
   if (error) {
     console.error(`提交代码时出现错误: ${error.message}`);
     return;
