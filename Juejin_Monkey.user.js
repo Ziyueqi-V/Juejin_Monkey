@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Junjin Monkey - 掘金猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.46
+// @version      0.0.47
 // @description  better Juejin experience, remove ads and other useless things, make it clean and simple, just like a monkey!
 // @author       Sherlock-V
 // @match        https://juejin.cn
