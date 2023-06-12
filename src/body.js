@@ -14,6 +14,8 @@
     '#juejin > div.view-container div.main-area.article-area > div.article-end > div.extension-banner',
     '#juejin > div.view-container li.nav-item.vip-entry',
     '#juejin > div.view-container ul > li.nav-item.link-item.special-activity-item',
+    // 相关小册
+    '#juejin > div.view-container div.main-area.article-area > div.wrap.category-course-recommend',
   ].filter(Boolean)
 
   style.innerHTML = [

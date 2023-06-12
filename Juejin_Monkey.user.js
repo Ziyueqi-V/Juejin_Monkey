@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Junjin Monkey - 掘金猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.6
+// @version      0.0.7
 // @description  better Juejin experience, remove ads and other useless things, make it clean and simple, just like a monkey!
 // @author       Sherlock-V
 // @match        https://juejin.cn
@@ -27,6 +27,8 @@
     '#juejin > div.view-container div.main-area.article-area > div.article-end > div.extension-banner',
     '#juejin > div.view-container li.nav-item.vip-entry',
     '#juejin > div.view-container ul > li.nav-item.link-item.special-activity-item',
+    // 相关小册
+    '#juejin > div.view-container div.main-area.article-area > div.wrap.category-course-recommend',
   ].filter(Boolean)
 
   style.innerHTML = [
